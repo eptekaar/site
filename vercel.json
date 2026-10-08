@@ -1,0 +1,57 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/ac-new",
+      "destination": "/ac/installation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ac-new/",
+      "destination": "/ac/installation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ac-used",
+      "destination": "/ac/used/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ac-used/",
+      "destination": "/ac/used/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ac-used/for-sale",
+      "destination": "/ac/used/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ac-used/for-sale/",
+      "destination": "/ac/used/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ac-used/sell-your-ac",
+      "destination": "/ac/used/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ac-used/sell-your-ac/",
+      "destination": "/ac/used/",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    }
+  ]
+}

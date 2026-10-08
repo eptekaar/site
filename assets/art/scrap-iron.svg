@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img">
+ <defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e5148"/><stop offset=".52" stop-color="#17364d"/><stop offset="1" stop-color="#10273a"/></linearGradient>
+ <linearGradient id="whiteBody" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#eef6fa"/><stop offset="1" stop-color="#acc4d2"/></linearGradient>
+ <linearGradient id="copperGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5bb7f"/><stop offset=".46" stop-color="#a85131"/><stop offset=".76" stop-color="#ed9b66"/><stop offset="1" stop-color="#70381f"/></linearGradient>
+ <linearGradient id="metalGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4fcff"/><stop offset=".35" stop-color="#89b0c2"/><stop offset=".7" stop-color="#cce3ec"/><stop offset="1" stop-color="#4d7184"/></linearGradient>
+ <linearGradient id="ironGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7190a4"/><stop offset=".5" stop-color="#294159"/><stop offset="1" stop-color="#8599a5"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#6dbb92" stop-opacity=".43"/><stop offset="1" stop-color="#6dbb92" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M70 0H0V70" stroke="#ffffff" opacity=".045" stroke-width="2" fill="none"/></pattern>
+ </defs>
+ <rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grid)"/>
+ <circle cx="1220" cy="160" r="550" fill="url(#glow)"/><circle cx="240" cy="740" r="550" fill="url(#glow)" opacity=".5"/>
+ <path d="M30 710C395 500 470 945 790 760S1285 650 1650 790" stroke="#6dbb92" stroke-width="3" fill="none" opacity=".27"/>
+ <path d="M0 225Q550 130 810 70T1600 155" fill="none" stroke="#fff" stroke-width="3" opacity=".06"/>
+ <g transform="translate(205 95)"><ellipse cx="600" cy="615" rx="505" ry="62" fill="#0e2030" opacity=".28"/>
+ <g stroke="#233e58" stroke-width="22" stroke-linejoin="round" fill="url(#ironGrad)"><path d="M80 500 620 80 665 132 125 560z"/><path d="M185 550 770 122 830 171 242 600z"/><path d="M367 550 910 229 980 283 422 617z"/></g><g stroke="#849dab" stroke-width="12" fill="none" stroke-linecap="round"><path d="m132 500 478-376M238 546 763 160M430 563 905 269"/></g><g fill="#cad8df"><circle cx="198" cy="545" r="19"/><circle cx="436" cy="607" r="21"/><circle cx="124" cy="543" r="18"/></g></g>
+ <g fill="#6dbb92" opacity=".85"><circle cx="240" cy="212" r="9"/><circle cx="1300" cy="672" r="13"/><rect x="1305" y="169" width="18" height="18" transform="rotate(35 1305 169)"/></g>
+ </svg>
